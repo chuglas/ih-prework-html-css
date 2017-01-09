@@ -1,0 +1,88 @@
+body {
+  font-family: helvetica;
+  background-color: rgb(244, 248, 249);
+}
+
+
+.tweet__container{
+  background: rgb(255, 255, 255);
+  width: 460px;
+  height: 120px;
+  padding: 20px 20px 12px 20px;
+  margin: 10px;
+  border: 1px solid rgb(225, 232, 237);
+  border-radius: 5px;
+}
+
+.tweet__user {
+  margin-left: 10px;
+}
+
+.tweet__user-info {
+  display: flex;
+}
+
+.tweet__avatar-image {
+  height: 36px;
+  width: 36px;
+}
+
+.tweet__follow-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(85, 172, 238);
+  border: 1px solid rgb(85, 172, 238);
+  border-radius: 3px;
+  float: right;
+  margin-left: auto;
+  height: 32px;
+  width: 92px;
+}
+
+.tweet__icon--16 {
+  height: 16px;
+  margin-right: 5px;
+}
+
+.tweet__icon--retweet {
+  height: 12px;
+  margin-left: 20px;
+}
+
+.tweet__icon--reply {
+  height: 12px;
+}
+
+.tweet__icon--favorite {
+  height: 12px;
+  width: 12px;
+  margin-left: 20px;
+}
+
+.tweet__content{
+  margin-top: 10px;
+}
+
+.tweet__time {
+  color: rgb(105, 120, 130);
+}
+
+.tweet__actions{
+  margin-top: 10px;
+  color: rgb(105, 120, 130);
+}
+
+
+  /*body
+  - background:        rgb(244, 248, 249)
+
+  tweet
+  - background:        rgb(255, 255, 255)
+  - border:            rgb(225, 232, 237)
+  - user name:         rgb(0, 0, 0)
+  - user account:      rgb(104, 109, 129)
+  - text:              rgb(0, 0, 0)
+  - date:              rgb(101, 116, 127)
+  - bottom text color: rgb(105, 120, 130)
+  - follow button:     rgb(85, 172, 238)*/
